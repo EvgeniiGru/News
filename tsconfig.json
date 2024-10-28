@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "outDir": "./dist/",
+    "module": "ESNext",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "jsx": "react",
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "types": [
+      "webpack-env"
+    ],
+    "typeRoots": [
+      "./@types",
+      "./node-modules/@types"
+    ],
+    "lib": [
+      "dom",
+      "es2020"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./@types/**/*"
+  ]
+}
